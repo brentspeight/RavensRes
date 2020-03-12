@@ -1,0 +1,51 @@
+{
+  "name": "travelsecure-react",
+  "version": "1.0",
+  "homepage": "https://sleepy-springs-57038.herokuapp.com/",
+  "author": "Omar Patel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch & nodemon ./server/bin/www",
+    "start": "nodemon ./server/bin/www",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "font-awesome": "^4.7.0",
+    "nodemon": "^1.19.1",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.2"
+  },
+  "plugins": [
+    "transform-class-properties"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSP123/TravelSecure-Mongo.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "bootstrap": "4.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "popper.js": "^1.15.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
