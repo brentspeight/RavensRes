@@ -76,15 +76,6 @@ export default class MainRouter extends Component {
               logout={this.logout}
             />} 
           />
-          <Route path="/pricing" render={props => 
-            <Pricing
-              {...props}
-              authenticate={this.authenticate}
-              deAuthenticate={this.deAuthenticate}
-              authenticated={this.state.authenticated}
-              logout={this.logout}
-            />} 
-          />
       	</Switch>
       </Router>
     );
